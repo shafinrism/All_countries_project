@@ -18,7 +18,7 @@ const AllCountries = () => {
         {
           allCountries.map((country,i)=>{
             return(
-              <div key={i} className="w-[32%] h-[200px] p-4 border-2 border-blue-600 rounded-lg mb-4">
+              <div key={i} className="w-[30%] p-4 border-2 border-blue-600 rounded-lg mb-4">
                 <h1 className="font-bold">Official Name : {country.name.official}</h1>
                 <h2 className="font-bold">Capital City : <span className="text-blue-600 text-xl">{country.capital}</span></h2>
                 <h2 className="font-bold text-xl">Region : {country.region}</h2>
