@@ -1,0 +1,32 @@
+{
+  "routes":[
+    {
+      "src":"/",
+      "dest":"/"
+    },
+    {
+      "src":"/users",
+      "dest":"/"
+    },
+    {
+      "src":"/allcountries",
+      "dest":"/"
+    },
+    {
+      "src":"/details/:id",
+      "dest":"/"
+    },
+    {
+      "src":"/second",
+      "dest":"/"
+    },
+    {
+      "src":"/second/all",
+      "dest":"/"
+    },
+    {
+      "src":"*",
+      "dest":"/"
+    }
+  ]
+}
